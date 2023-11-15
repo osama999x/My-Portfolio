@@ -1,0 +1,42 @@
+[
+  {
+    "title": "NCS-Railway",
+    "image": "./projectImages/ncs.png",
+    "technologies": "Node Js |MySql | Sequelize | NodeMailer",
+    "description": "Industrial project currently being used by Railways (Regrettably, I'm unable to provide the code due to our company's policies)",
+    "deployed":"http://qa-ncs-railway.appinsnap.com/#/",
+    "github":"",
+    "bgcolor": "#29cbe0",
+    "id": "1"
+  },
+  {
+    "title": "JS Wall",
+    "image": "./projectImages/jswall_ss.png",
+    "technologies": "Node JS | Mongoose | NodeMailer ",
+    "description": "Industrial project currently being used by JS Bank. (Regrettably, I'm unable to provide the code due to our company's policies)",
+    "deployed":"http://jswall.appinsnap.com/",
+    "github":"",
+    "bgcolor": "#007c84",
+    "id": "2"
+  },
+  
+  {
+    "title": "Contact Finder",
+    "image": "./projectImages/contact_ss.png",
+    "description": "Industrial project being used to filter out all the duplicate and Unique records from Excel Sheet. (Regrettably, I'm unable to provide the code due to our company's policies)",
+    "technologies": "Node JS | Mongoose | NodeMailer ",
+    "deployed": "",
+    "github": "",
+    "bgcolor": "rgb(51 255 212)",
+    "id": "3"
+  },{
+    "title": "Mediko",
+    "image": "./projectImages/mediko.png",
+    "description": "Industrial project being used to filter out all the duplicate and Unique records from Excel Sheet. (Regrettably, I'm unable to provide the code due to our company's policies)",
+    "technologies": "Node JS | Mongoose | NodeMailer ",
+    "deployed": "http://qa-mediko.appinsnap.com/#/",
+    "github": "",
+    "bgcolor": "rgb(51 255 212)",
+    "id": "3"
+  }
+]
