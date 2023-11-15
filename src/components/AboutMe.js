@@ -83,12 +83,12 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 </div>
               </div>
 
-              <div className="buttonContainer">
+              {/* <div className="buttonContainer">
                 <button className="btn downloadCV" onClick={handleDownload}> {downloading}
                   {downloading ? "Downloading..." : "Download Resume"}
                 </button>{" "}
                 <SocialIcons />
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
