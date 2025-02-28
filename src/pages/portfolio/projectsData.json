@@ -1,42 +1,163 @@
 [
   {
+    "title": "Xtreme Gym App",
+    "image": "./projectImages/xtreme_gym.png",
+    "technologies": "Node.js | NestJS | MongoDB | Stripe | Google OAuth | ChatGPT API | WebSockets",
+    "description": "Created an admin and client portal for managing profiles, workout plans, meal plan subscriptions, charts, statuses, a chat application, and AI-generated workout and meal plans. Integrated APIs for ChatGPT, Stripe, Calendly, Google OAuth, and FCM for web-based notifications while developing the backend for the web application.",
+    "deployed": "",
+    "github": "https://github.com/osama999x/Xtreme-Backend",
+    "bgcolor": "#ff5733",
+    "id": "1"
+  },
+  {
     "title": "NCS-Railway",
     "image": "./projectImages/ncs.png",
-    "technologies": "Node Js |MySql | Sequelize | NodeMailer",
-    "description": "Industrial project currently being used by Railways (Regrettably, I'm unable to provide the code due to our company's policies)",
-    "deployed":"http://qa-ncs-railway.appinsnap.com/#/",
-    "github":"",
+    "technologies": "Node.js | MySQL | Sequelize | NodeMailer",
+    "description": "Industrial project currently being used by Railways (Regrettably, I'm unable to provide the code due to our company's policies). Automated ticketing and management system for trains, coaches, seats, quota, timing, fare, and report management.",
+    "deployed": "http://qa-ncs-railway.appinsnap.com/#/",
+    "github": "",
     "bgcolor": "#29cbe0",
-    "id": "1"
+    "id": "2"
   },
   {
     "title": "JS Wall",
     "image": "./projectImages/jswall_ss.png",
-    "technologies": "Node JS | Mongoose | NodeMailer ",
-    "description": "Industrial project currently being used by JS Bank. (Regrettably, I'm unable to provide the code due to our company's policies)",
-    "deployed":"http://jswall.appinsnap.com/",
-    "github":"",
+    "technologies": "Node.js | Mongoose | NodeMailer",
+    "description": "A banking sector project currently being used by JS Bank, featuring various modules designed specifically for security purposes for each employee.",
+    "deployed": "http://jswall.appinsnap.com/",
+    "github": "",
     "bgcolor": "#007c84",
-    "id": "2"
+    "id": "3"
   },
-  
   {
-    "title": "Contact Finder",
-    "image": "./projectImages/contact_ss.png",
-    "description": "Industrial project being used to filter out all the duplicate and Unique records from Excel Sheet. (Regrettably, I'm unable to provide the code due to our company's policies)",
-    "technologies": "Node JS | Mongoose | NodeMailer ",
+    "title": "Organization Health Solutions",
+    "image": "./projectImages/org_health.png",
+    "technologies": "Node.js | Express | MongoDB|React",
+    "description": "An industrial project with live surveys for company individuals, offering three types of surveys: start, mid, and end, and gathering feedback and reviews. Labels and inputs are dynamically handled across multiple forms in the surveys.",
+    "deployed": "",
+    "github": "https://github.com/osama999x/ohs",
+    "bgcolor": "#4caf50",
+    "id": "4"
+  },
+  {
+    "title": "CMS - Invoice Management System",
+    "image": "./projectImages/ais.png",
+    "technologies": "Node.js | Express | React|mysql|Sequelize",
+    "description": "Developed a comprehensive system for managing projects, timelines, clients, employees, invoicing, billing, assets, leave, health insurance, and attendance.",
+    "deployed": "https://qa-aisofficerevamp.appinsnap.com/",
+    "github": "",
+    "bgcolor": "#ffa726",
+    "id": "5"
+  },
+  {
+    "title": "HLP - Hotel Management System",
+    "image": "./projectImages/hlp.png",
+    "technologies": "Node.js | Express | MongoDB",
+    "description": "Developed the backend for HLP (Hotel Management System). Managed resources, expenses, and budgeting, and provided a comparison feature for hotels.",
     "deployed": "",
     "github": "",
-    "bgcolor": "rgb(51 255 212)",
-    "id": "3"
-  },{
-    "title": "Mediko",
-    "image": "./projectImages/mediko.png",
-    "description": "Industrial project being used to filter out all the duplicate and Unique records from Excel Sheet. (Regrettably, I'm unable to provide the code due to our company's policies)",
-    "technologies": "Node JS | Mongoose | NodeMailer ",
-    "deployed": "http://qa-mediko.appinsnap.com/#/",
+    "bgcolor": "#d32f2f",
+    "id": "6"
+  },
+  {
+    "title": "J-ACE",
+    "image": "./projectImages/jace.png",
+    "technologies": "Node.js | TypeScript | OracleDB",
+    "description": "A banking system for JS Bank to deliver remittances to beneficiaries. Developed backend APIs in Node.js with TypeScript and integrated third-party APIs for transaction processing.",
+    "deployed": "https://dev-jacepanel.appinsnap.com/login",
     "github": "",
-    "bgcolor": "rgb(51 255 212)",
-    "id": "3"
+    "bgcolor": "#1565c0",
+    "id": "7"
+  },
+  {
+    "title": "WhatsApp Chat Bots",
+    "image": "./projectImages/chatbots.png",
+    "technologies": "Node.js | WhatsApp API | WebSockets",
+    "description": "Developed WhatsApp chatbots for Punjab Excise and Taxation, Gulberg Housing Society, Islamabad International Airport, and customer support automation for vending machines.",
+    "deployed": "",
+    "github": "",
+    "bgcolor": "#2e7d32",
+    "id": "8"
+  },
+  {
+    "title": "EU-Studio",
+    "image": "./projectImages/eu_studio.png",
+    "technologies": "Node.js | MongoDB | WebSockets",
+    "description": "Developed a music player backend similar to Spotify, featuring authentication, playlists, albums, categories, premium accounts, and room creation.",
+    "deployed": "",
+    "github": "",
+    "bgcolor": "#8e24aa",
+    "id": "9"
+  },
+  {
+    "title": "HEC Attestation",
+    "image": "./projectImages/hec.png",
+    "technologies": "Node.js | Blockchain",
+    "description": "Developed an online platform for degree attestation starting from universities' POC to HEC administration, utilizing blockchain for data security.",
+    "deployed": "",
+    "github": "",
+    "bgcolor": "#5e35b1",
+    "id": "10"
+  },
+  {
+    "title": "Rahper - Ride Sharing App",
+    "image": "./projectImages/rahper.png",
+    "technologies": "Node.js | Express | WebSockets | Google Maps API",
+    "description": "Developed the backend for Rahper, a ride-sharing app with real-time requests, chat, and Google Maps integration for location services.",
+    "deployed": "https://rahper.com/",
+    "portal": "https://admin.rahper.com/#/",
+    "github": "",
+    "bgcolor": "#ff6f00",
+    "id": "11"
+  },
+  {
+    "title": "Farmkar App/Admin Portal",
+    "image": "./projectImages/farmkar.png",
+    "technologies": "Node.js | MongoDB",
+    "description": "Developed a project for rural areas, connecting farmers, lenders, and customers for equipment import, export, and related services.",
+    "deployed": "https://qa-farmkarreact.appinsnap.com/dashboard",
+    "github": "",
+    "bgcolor": "#558b2f",
+    "id": "12"
+  },
+  {
+    "title": "Autocar",
+    "image": "./projectImages/autoCar.png",
+    "technologies": "Node.js | Express | MongoDB",
+    "description": "Developed a website and app for listing automobile parts, with an admin portal for management and cash flow tracking.",
+    "deployed": "https://car2parts.com/",
+    "github": "",
+    "bgcolor": "#212121",
+    "id": "13"
+  },
+  {
+    "title": "MeeramTech",
+    "image": "./projectImages/meeram.png",
+    "technologies": "Node.js | MongoDB",
+    "description": "Developed an app and web portal for a Huawei Authorized Service Centre.",
+    "deployed": "https://meeramtech.com/",
+    "github": "",
+    "bgcolor": "#0288d1",
+    "id": "14"
+  },
+  {
+    "title": "MSAFA (E-commerce store for Canada)",
+    "image": "./projectImages/msafa.png",
+    "technologies": "Node.js | Stripe | MongoDB",
+    "description": "Developed a complete e-commerce website with an admin portal, integrated payment APIs such as Stripe.",
+    "deployed": "https://msafa.ca/home",
+    "github": "",
+    "bgcolor": "#c2185b",
+    "id": "15"
+  },
+  {
+    "title": "CDA-Survey Portal",
+    "image": "./projectImages/cda.png",
+    "technologies": "Node.js | React | mySql|TypeScript|JavaScript|Google Maps API",
+    "description": "It's a surveyor app where inspectors conduct surveys, report violations, and then proper actions are taken.",
+    "deployed": "https://qa-cdasurveyportal.ermispk.com/#/login",
+    "github": "",
+    "bgcolor": "#c2185b",
+    "id": "15"
   }
 ]

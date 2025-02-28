@@ -13,70 +13,77 @@
 .skills-container {
   max-width: 1200px;
   margin: auto;
+  text-align: center;
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skill-card {
   flex: 0 0 calc(33.333% - 20px);
   margin: 10px;
   padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
 }
 
 .skill-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
-.skill-content {
-  flex-direction: column;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.proficiency-text {
-  text-align: right;
-  color: lightcyan;
-  font-size: 14px;
-  margin-top: -14px;
+.skill-content h4 {
+  margin-bottom: 8px;
+  font-size: 18px;
 }
 
 .proficiency-bar {
   height: 10px;
-  background: linear-gradient(83deg, #5590b8, #124e75);
+  background: rgba(255, 255, 255, 0.7);
   width: 0;
-  transition: width 0.8s ease;
+  transition: width 1s ease-in-out;
   border-radius: 5px;
-  margin-top: 10px;
+}
+
+.proficiency-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .pageTitlee {
   color: #f3f3f3;
   font-size: 36px;
-  max-width: 130px !important;
+  max-width: 150px;
   border-bottom: 3px solid var(--hl-color);
-  text-align: center;
-  margin: 0 auto !important;
-  margin-bottom: 50px !important;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 550px) {
-  .textNone {
-    display: none;
-  }
-
   .skills-list {
-    display: flex;
-    flex-direction: column !important;
-    padding: 0px 10px !important;
+    flex-direction: column;
+    padding: 0 10px;
   }
 
+  .skill-card {
+    flex: 0 0 100%;
+  }
+
+  .proficiency-text {
+    font-size: 12px;
+  }
 }
