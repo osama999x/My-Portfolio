@@ -1,7 +1,7 @@
 [
   {
     "title": "Xtreme Gym App",
-    "image": "./projectImages/xtreme_gym.png",
+    "image": "./projectImages/xtreme.jpeg",
     "technologies": "Node.js | NestJS | MongoDB | Stripe | Google OAuth | ChatGPT API | WebSockets",
     "description": "Created an admin and client portal for managing profiles, workout plans, meal plan subscriptions, charts, statuses, a chat application, and AI-generated workout and meal plans. Integrated APIs for ChatGPT, Stripe, Calendly, Google OAuth, and FCM for web-based notifications while developing the backend for the web application.",
     "deployed": "",
@@ -31,7 +31,7 @@
   },
   {
     "title": "Organization Health Solutions",
-    "image": "./projectImages/org_health.png",
+    "image": "./projectImages/ohs.jpeg",
     "technologies": "Node.js | Express | MongoDB|React",
     "description": "An industrial project with live surveys for company individuals, offering three types of surveys: start, mid, and end, and gathering feedback and reviews. Labels and inputs are dynamically handled across multiple forms in the surveys.",
     "deployed": "",
@@ -81,7 +81,7 @@
   },
   {
     "title": "EU-Studio",
-    "image": "./projectImages/eu_studio.png",
+    "image": "./projectImages/eustudio.jpeg",
     "technologies": "Node.js | MongoDB | WebSockets",
     "description": "Developed a music player backend similar to Spotify, featuring authentication, playlists, albums, categories, premium accounts, and room creation.",
     "deployed": "",
@@ -91,7 +91,7 @@
   },
   {
     "title": "HEC Attestation",
-    "image": "./projectImages/hec.png",
+    "image": "./projectImages/hec.jpeg",
     "technologies": "Node.js | Blockchain",
     "description": "Developed an online platform for degree attestation starting from universities' POC to HEC administration, utilizing blockchain for data security.",
     "deployed": "",
