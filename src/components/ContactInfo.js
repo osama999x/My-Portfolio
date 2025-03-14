@@ -84,7 +84,6 @@ const ContactInfo = ({ name, email, location }) => {
                                 rel="noopener noreferrer"
                                 className="whatsappLink"
                             >
-                                <span className="infoValue">Send Message on WhatsApp</span>
                                 <img
                                     src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                                     alt="WhatsApp"
@@ -92,6 +91,8 @@ const ContactInfo = ({ name, email, location }) => {
                                     height="30"
                                     style={{ cursor: "pointer" }}
                                 />
+                                <span className="infoValue">Send Message on WhatsApp</span>
+
                             </a>
                         </div>
                     </div>
