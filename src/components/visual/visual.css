@@ -891,23 +891,30 @@ section {
 }
 
 .contact {
-  width: min(760px, calc(100% - 32px));
-  margin: 12px auto 64px;
-  padding: 8px 0 40px;
+  width: min(680px, calc(100% - 40px));
+  margin: 24px auto 72px;
+  padding: 0;
   background: transparent;
   border: 0;
   box-shadow: none;
   align-items: stretch;
 }
 
+.contact .pageDescription,
 .contact .pageTitle {
   width: 100%;
+  margin-left: 0;
+  text-align: left;
+}
+
+.contact .pageTitle {
+  margin-bottom: 20px;
 }
 
 .contactInfo {
   width: 100%;
   margin: 0 !important;
-  padding: 28px 28px 8px;
+  padding: 24px 24px 8px;
   background: #131316;
   border: 1px solid #34343a;
   box-shadow: none;
@@ -941,16 +948,25 @@ section {
 .whatsappLink {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
 }
 
 .contact .icon {
   color: #2ddcb8;
   font-size: 18px;
+  width: 18px;
+  text-align: center;
 }
 
-.mediaWrap {
-  border-left-color: #34343a;
+.contact .socialIcons {
+  justify-content: flex-start !important;
+  margin-top: 18px !important;
+  padding-bottom: 0;
+}
+
+.contact .socialIcons::before,
+.contact .socialIcons::after {
+  content: none;
+  display: none;
 }
 
 .preloader {

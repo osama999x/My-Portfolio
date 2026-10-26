@@ -15,8 +15,8 @@ const ContactInfo = ({ name, email, location }) => {
         <motion.div
             className="contactInfo"
             ref={ref}
-            initial={{ x: "10vw", opacity: 0 }}
-            animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
+            initial={{ y: 12, opacity: 0 }}
+            animate={inView ? { y: 0, opacity: 1 } : { y: 12, opacity: 0 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
         >
             <h4 className="contentTitle">Contact Information</h4>
