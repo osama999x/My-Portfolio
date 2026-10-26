@@ -27,8 +27,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                     <motion.div
                         className="personalImage col-12 col-lg-4"
                         ref={ref}
-                        initial={{ x: "-10vw", opacity: 0 }}
-                        animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
+                        initial={{ y: 16, opacity: 0 }}
+                        animate={inView ? { y: 0, opacity: 1 } : { y: 16, opacity: 0 }}
                         transition={{ duration: 0.4, ease: "easeInOut" }}
                     >
                         <img src={aboutMeImg} alt={name} className="img-top" />
@@ -36,8 +36,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                     <motion.div
                         className="personalInfo col-12 col-lg-8"
                         ref={ref}
-                        initial={{ x: "10vw", opacity: 0 }}
-                        animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
+                        initial={{ y: 16, opacity: 0 }}
+                        animate={inView ? { y: 0, opacity: 1 } : { y: 16, opacity: 0 }}
                         transition={{ duration: 0.4, ease: "easeInOut" }}
                     >
 

@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import closeModal from "../images/close.svg";
 import usePrefersReducedMotion from "../hooks/usePrefersReducedMotion";
 
-const Project = ({ technologies, title, image, color, id, github, deployed, portal, description, role }) => {
+const Project = ({ technologies, title, image, color, github, deployed, portal, description, role }) => {
 
     const [ref, inView] = useInView({
         threshold: 0.5,
@@ -13,8 +13,8 @@ const Project = ({ technologies, title, image, color, id, github, deployed, port
     });
 
     const variants = {
-        hidden: { x: id % 2 === 0 ? "10vw" : "-10vw", opacity: 0 },
-        visible: { x: 0, opacity: 1 },
+        hidden: { y: 16, opacity: 0 },
+        visible: { y: 0, opacity: 1 },
     };
 
     Modal.setAppElement("#root");
@@ -48,7 +48,6 @@ const Project = ({ technologies, title, image, color, id, github, deployed, port
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            layout="position"
             exit={{ opacity: 0, scale: 0.98 }}
         >
             <div
@@ -93,7 +92,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, port
                     content: {
                         backgroundColor: "#121316",
                         color: "#9aa0a8",
-                        padding: "40px",
+                        padding: "clamp(16px, 4vw, 40px)",
                         display: "flex",
                         flexDirection: "column",
                         margin: "auto",

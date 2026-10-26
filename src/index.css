@@ -157,9 +157,12 @@ header {
   background-color: transparent;
 }
 
-.closeModal {
-  margin-left: 320px !important;
-  margin-bottom: 40px !important;
+.closeModal,
+.closeMenu {
+  display: block;
+  width: 28px;
+  margin: 0 0 12px auto !important;
+  float: none;
 }
 
 /* --- MEDIA QUERIES --- */
