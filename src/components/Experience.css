@@ -1,0 +1,75 @@
+.experience {
+  width: min(1100px, 100%);
+  margin: 10px auto 40px;
+  padding: 10px 20px 20px;
+}
+
+.roleList {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.role,
+.education {
+  background: rgba(35, 47, 62, 0.45);
+  border: 1px solid rgba(159, 159, 159, 0.25);
+  border-radius: 16px;
+  padding: 22px 22px 8px;
+}
+
+.roleHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.role h4,
+.education h4 {
+  color: var(--text-color);
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.roleCompany {
+  color: var(--hl-color);
+  margin-bottom: 0;
+}
+
+.roleMeta {
+  color: var(--secondary-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 14px;
+  text-align: right;
+}
+
+.role ul {
+  margin: 12px 0 14px 18px;
+  color: var(--secondary-text-color);
+}
+
+.role li {
+  margin-bottom: 8px;
+}
+
+.education {
+  margin-top: 18px;
+  padding-bottom: 22px;
+}
+
+.education .roleMeta {
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 6px;
+}
+
+@media (max-width: 700px) {
+  .roleMeta {
+    align-items: flex-start;
+    text-align: left;
+  }
+}

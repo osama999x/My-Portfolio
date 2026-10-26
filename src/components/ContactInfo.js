@@ -8,8 +8,8 @@ const ContactInfo = ({ name, email, location }) => {
         triggerOnce: true,
     });
 
-    const whatsappNumber = "03215271247"; // Your WhatsApp number
-    const whatsappLink = `https://wa.me/${whatsappNumber.replace(/-/g, "")}`;
+    const whatsappNumber = "0321 5271247";
+    const whatsappLink = "https://wa.me/923215271247";
 
     return (
         <motion.div
@@ -84,15 +84,7 @@ const ContactInfo = ({ name, email, location }) => {
                                 rel="noopener noreferrer"
                                 className="whatsappLink"
                             >
-                                <img
-                                    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-                                    alt="WhatsApp"
-                                    width="30"
-                                    height="30"
-                                    style={{ cursor: "pointer" }}
-                                />
                                 <span className="infoValue">Send Message on WhatsApp</span>
-
                             </a>
                         </div>
                     </div>

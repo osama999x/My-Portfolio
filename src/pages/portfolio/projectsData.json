@@ -1,5 +1,82 @@
 [
   {
+    "title": "Supplier Invoice Automation",
+    "image": "./projectImages/invoice-automation.png",
+    "technologies": "Python | PySide6 | SQLite | OpenCV | PyMuPDF | Watchdog",
+    "role": "Desktop",
+    "description": "Windows desktop app that files Portuguese supplier invoices. PDFs can be dropped in, browsed, or picked up from a watched folder. PyMuPDF renders each page and OpenCV reads the tax QR. The parser checks supplier, client, date, VAT, and total, then SQLite records the result and the PDF is stored by supplier, year, and month. Duplicates and unknown suppliers are logged instead of filed again. A background worker keeps the PySide6 window responsive while a batch is processing.",
+    "deployed": "",
+    "github": "",
+    "bgcolor": "#7d22da",
+    "id": "23"
+  },
+  {
+    "title": "Air Rental",
+    "image": "./projectImages/air-rental.png",
+    "technologies": "Next.js | React | Node.js",
+    "role": "Full Stack",
+    "description": "Monthly tenancy product for homes, shops, offices, rooms, and warehouses in Karachi, Lahore, Islamabad, and Rawalpindi. Owners list a property and invite a tenant, tenants accept the agreement and track what is due, and managers follow bills, inspections, and maintenance on the same record.",
+    "deployed": "http://179.236.65.153:3001/",
+    "github": "",
+    "bgcolor": "#1d4ed8",
+    "id": "17"
+  },
+  {
+    "title": "LEOS Developments",
+    "image": "./projectImages/leos.png",
+    "technologies": "WordPress | Elementor | WP Engine",
+    "role": "Full Stack",
+    "description": "Public website for LEOS Developments, a luxury developer with communities in the UAE and the UK. The site carries the development catalogue, 360 virtual tours, construction progress, news, enquiries, broker registration, and online payments.",
+    "deployed": "https://leosdevelopments.com/",
+    "github": "",
+    "bgcolor": "#8a734a",
+    "id": "18"
+  },
+  {
+    "title": "LEOS Broker Portal",
+    "image": "./projectImages/leos-broker.png",
+    "technologies": "Next.js | Node.js | PostgreSQL | MongoDB | Zoho CRM | WhatsApp",
+    "role": "Full Stack",
+    "description": "Broker management portal for LEOS Developments. New brokers apply for access to projects and properties, and registered brokers sign in to work their pipeline. Onboarding and lead handling connect to Zoho CRM and WhatsApp, with JWT auth and role-based access on the API.",
+    "deployed": "https://agency.leosdevelopments.com/",
+    "github": "",
+    "bgcolor": "#1a2744",
+    "id": "19"
+  },
+  {
+    "title": "VE Live",
+    "image": "./projectImages/velive.png",
+    "technologies": "Next.js | React | Node.js",
+    "role": "Full Stack",
+    "description": "Developer-led property management site. Visitors search rent and sale listings by location, category, beds, and furnishing, then follow services and the client journey from the same product.",
+    "deployed": "https://velive.co.uk/listings?q=br&listing_type=rent",
+    "github": "",
+    "bgcolor": "#111111",
+    "id": "20"
+  },
+  {
+    "title": "Rishta Nagar",
+    "image": "./projectImages/rishta-nagar.png",
+    "technologies": "Next.js | React | Node.js",
+    "role": "Full Stack",
+    "description": "Digital rishta platform for people in Pakistan and abroad. The product covers registration, complete profiles, preference-based matches, verified profiles, privacy controls on chat, and entry points to the Android and iOS apps.",
+    "deployed": "https://rishtanagar.com/",
+    "github": "",
+    "bgcolor": "#9d174d",
+    "id": "21"
+  },
+  {
+    "title": "Extsy",
+    "image": "./projectImages/web.webp",
+    "technologies": "Node.js | NestJS | PostgreSQL | MongoDB | Binance API | Socket.IO",
+    "role": "Backend",
+    "description": "Backend for Extsy, a trading platform with spot, futures, demo, and copy trading. Built the multi-network wallet layer across Ethereum, Arbitrum, Optimism, and Bitcoin, Binance WebSocket and REST market data, Sumsub KYC, and crypto-backed virtual card flows.",
+    "deployed": "",
+    "github": "",
+    "bgcolor": "#0f172a",
+    "id": "22"
+  },
+  {
     "title": "Xtreme Gym App",
     "image": "./projectImages/xtreme.jpeg",
     "technologies": "Node.js | NestJS | MongoDB | Stripe | Google OAuth | ChatGPT API | WebSockets",
@@ -51,7 +128,7 @@
   },
   {
     "title": "HLP - Hotel Management System",
-    "image": "./projectImages/hlp.png",
+    "image": "./projectImages/web.webp",
     "technologies": "Node.js | Express | MongoDB",
     "description": "Developed the backend for HLP (Hotel Management System). Managed resources, expenses, and budgeting, and provided a comparison feature for hotels.",
     "deployed": "",
@@ -63,7 +140,7 @@
     "title": "J-ACE",
     "image": "./projectImages/jace.png",
     "technologies": "Node.js | TypeScript | OracleDB",
-    "description": "A banking system for JS Bank to deliver remittances to beneficiaries. Developed backend APIs in Node.js with TypeScript and integrated third-party APIs for transaction processing.",
+    "description": "Led the backend for J-ACE, a JS Bank remittance system for doorstep cash delivery. Officers create, verify, and dispatch requests in a portal, and riders pick up cash, run VBS checks, and deliver to beneficiaries. APIs are Node.js and TypeScript on Oracle DB, with third-party fund transfer and live tracking.",
     "deployed": "https://dev-jacepanel.appinsnap.com/login",
     "github": "",
     "bgcolor": "#1565c0",
@@ -71,7 +148,7 @@
   },
   {
     "title": "WhatsApp Chat Bots",
-    "image": "./projectImages/chatbots.png",
+    "image": "./projectImages/web.webp",
     "technologies": "Node.js | WhatsApp API | WebSockets",
     "description": "Developed WhatsApp chatbots for Punjab Excise and Taxation, Gulberg Housing Society, Islamabad International Airport, and customer support automation for vending machines.",
     "deployed": "",
@@ -103,7 +180,7 @@
     "title": "Rahper - Ride Sharing App",
     "image": "./projectImages/rahper.png",
     "technologies": "Node.js | Express | WebSockets | Google Maps API",
-    "description": "Developed the backend for Rahper, a ride-sharing app with real-time requests, chat, and Google Maps integration for location services.",
+    "description": "Ride-sharing platform with Google Maps for location, sockets for live ride requests and chat, and APIs shared by the rider experience and the admin panel.",
     "deployed": "https://rahper.com/",
     "portal": "https://admin.rahper.com/#/",
     "github": "",
@@ -114,7 +191,7 @@
     "title": "Farmkar App/Admin Portal",
     "image": "./projectImages/farmkar.png",
     "technologies": "Node.js | MongoDB",
-    "description": "Developed a project for rural areas, connecting farmers, lenders, and customers for equipment import, export, and related services.",
+    "description": "Platform connecting farmers, lenders, and customers for equipment import, export, and related services. Integrated Zindigi Gateway so payments run inside the same workflow.",
     "deployed": "https://qa-farmkarreact.appinsnap.com/dashboard",
     "github": "",
     "bgcolor": "#558b2f",
@@ -124,7 +201,7 @@
     "title": "Autocar",
     "image": "./projectImages/autoCar.png",
     "technologies": "Node.js | Express | MongoDB",
-    "description": "Developed a website and app for listing automobile parts, with an admin portal for management and cash flow tracking.",
+    "description": "Website and app for listing automobile parts, with an admin portal for inventory, quotations, cash flow, and payment handling on orders.",
     "deployed": "https://car2parts.com/",
     "github": "",
     "bgcolor": "#212121",
@@ -157,7 +234,7 @@
     "description": "It's a surveyor app where inspectors conduct surveys, report violations, and then proper actions are taken.",
     "deployed": "https://qa-cdasurveyportal.ermispk.com/#/login",
     "github": "",
-    "bgcolor": "#c2185b",
-    "id": "15"
+    "bgcolor": "#00695c",
+    "id": "16"
   }
 ]

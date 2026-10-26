@@ -47,33 +47,6 @@ ul {
   padding-bottom: 12px;
 }
 
-.formGroup {
-  padding-right: 15px;
-}
-
-.formControl {
-  font-size: 15px;
-  width: 100%;
-  padding: 10px 10px;
-  border: none;
-  background-color: #161616;
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--grey);
-  border-radius: 1px;
-  outline: transparent;
-  color: var(--grey);
-}
-
-.formControl:focus {
-  border-bottom: 1px solid var(--hl-color);
-}
-
-textarea {
-  resize: none;
-  height: auto;
-  font-family: "Poppins", sans-serif;
-}
-
 .icon {
   color: var(--hl-color);
   font-size: 28px;
@@ -92,10 +65,6 @@ textarea {
 
 .infoValue a {
   color: var(--hl-color);
-}
-
-.contactForm {
-  margin-bottom: var(--sm-spacing);
 }
 
 .contact .socialIcons {

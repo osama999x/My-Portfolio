@@ -74,6 +74,30 @@
   color: #03b979;
 }
 
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.statsRow div {
+  border: 1px solid var(--grey);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.statsRow strong {
+  display: block;
+  color: var(--text-color);
+  font-size: 22px;
+}
+
+.statsRow span {
+  color: var(--secondary-text-color);
+  font-size: 13px;
+}
+
 .buttonContainer {
   display: flex;
   align-items: center;

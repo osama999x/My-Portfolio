@@ -50,6 +50,45 @@
   font-size: 14px;
 }
 
+.projectRole {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.projectFilters {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.filterBtn {
+  background: transparent;
+  color: var(--text-color);
+  border: 1px solid var(--grey);
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.filterBtn span {
+  margin-left: 8px;
+  color: var(--hl-color);
+}
+
+.filterBtn.active {
+  background: var(--hl-color);
+  border-color: var(--hl-color);
+  color: #fff;
+}
+
+.filterBtn.active span {
+  color: #fff;
+}
+
 .projectTitle {
   font-size: 24px;
   padding: 10px 0;

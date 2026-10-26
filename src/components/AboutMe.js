@@ -2,8 +2,7 @@ import aboutMeImg from "../images/o1m.jpg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
-import { useState, useEffect } from "react";
-import resume from "../pages/about/Osama_khan.pdf";
+const resume = `${process.env.PUBLIC_URL}/Osama_Khan_MERN.pdf`;
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
     const [ref, inView] = useInView({
@@ -11,23 +10,13 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
         triggerOnce: true,
     });
 
-    const [downloading, setDownloading] = useState(false);
-
-    useEffect(() => {
-        setDownloading(false);
-    }, [downloading]);
-
     const handleDownload = () => {
-        setDownloading(true);
         const link = document.createElement("a");
         link.href = resume;
-        link.download = "Osama_Khan.pdf";
-        link.onload = () => {
-            link.remove();
-            setDownloading(false);
-        };
+        link.download = "osama_khan_MERN.pdf";
         document.body.appendChild(link);
         link.click();
+        link.remove();
     };
 
     return (
@@ -54,7 +43,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
 
                         <div className="contentContainer">
                             <h4>Nice to meet you</h4>
-                            <h5>Hello! I'm Osama Khan, MERN & Nest.js Developer with 2 years of experience in development.</h5>
+                            <h5>I am a full stack developer with 3+ years shipping Node.js, NestJS, and React products.</h5>
                             <div className="contentDescription">
                                 <p>{brand}</p>
                             </div>
@@ -62,7 +51,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                                 <div className="row">
                                     <div className="col-12 col-md-6 info">
                                         <span>Name:</span>
-                                        <p>Osama Khan</p>
+                                        <p>{name}</p>
                                     </div>
                                     <div className="col-12 col-md-6 info">
                                         <span>Email:</span>
@@ -83,9 +72,23 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                                 </div>
                             </div>
 
+                            <div className="statsRow">
+                                <div>
+                                    <strong>3+</strong>
+                                    <span>Years shipping</span>
+                                </div>
+                                <div>
+                                    <strong>20+</strong>
+                                    <span>Products</span>
+                                </div>
+                                <div>
+                                    <strong>4–5</strong>
+                                    <span>Engineers led</span>
+                                </div>
+                            </div>
                             <div className="buttonContainer">
-                                <button className="btn downloadCV" onClick={handleDownload}> {downloading}
-                                    {downloading ? "Downloading..." : "Download Resume"}
+                                <button className="btn downloadCV" type="button" onClick={handleDownload}>
+                                    Download Resume
                                 </button>{" "}
                                 <SocialIcons />
                             </div>
